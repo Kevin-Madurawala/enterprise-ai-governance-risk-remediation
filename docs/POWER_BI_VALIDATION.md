@@ -24,7 +24,4 @@ The final PBIX was refreshed against the corrected source data and the report st
 - Control Coverage axis is formatted as a percentage.
 - AI System Detail slicer uses single selection and filters cards/tables correctly.
 - Page 4 card labels are simplified to Risk Score, Risk Level, Weak Controls, and Incidents.
-
-## Optional model-name cleanup
-
-The internal DAX measure name `Average Reliabillity Risk` contains a spelling error. The user-facing visual label is `Reliability`, so this does not affect report output. It can be renamed to `Average Reliability Risk` in Power BI Desktop for a perfectly clean model pane.
+- The final screenshots and PBIX in the repository reflect the corrected source data.
