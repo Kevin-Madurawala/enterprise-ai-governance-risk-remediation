@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<rect width="1200" height="675" fill="#f6f8fb"/>
+<g font-family="Arial">
+<text x="52" y="54" font-size="28" font-weight="700" fill="#172033">Governance &amp; Controls</text>
+<text x="52" y="80" font-size="14" fill="#64748b">Static portfolio preview • corrected control data</text>
+
+<g transform="translate(52,112)"><rect width="370" height="250" rx="10" fill="white" stroke="#dbe3ee"/><text x="20" y="34" font-size="16" font-weight="700" fill="#172033">Weak Controls by Governance Category</text>
+<g font-size="12" fill="#334155">
+<text x="20" y="72">Monitoring</text><rect x="125" y="60" width="198" height="14" rx="7" fill="#2563eb"/><text x="338" y="72">13</text>
+<text x="20" y="103">Fairness</text><rect x="125" y="91" width="168" height="14" rx="7" fill="#3b82f6"/><text x="308" y="103">11</text>
+<text x="20" y="134">Transparency</text><rect x="125" y="122" width="122" height="14" rx="7" fill="#60a5fa"/><text x="262" y="134">8</text>
+<text x="20" y="165">Privacy</text><rect x="125" y="153" width="46" height="14" rx="7" fill="#93c5fd"/><text x="186" y="165">3</text>
+<text x="20" y="196">Reliability</text><rect x="125" y="184" width="31" height="14" rx="7" fill="#bfdbfe"/><text x="171" y="196">2</text>
+<text x="20" y="227">Security / Human Oversight</text><rect x="196" y="215" width="15" height="14" rx="7" fill="#cbd5e1"/><text x="226" y="227">1 each</text>
+</g></g>
+
+<g transform="translate(52,382)"><rect width="370" height="236" rx="10" fill="white" stroke="#dbe3ee"/><text x="20" y="34" font-size="16" font-weight="700" fill="#172033">Control Coverage by Department</text>
+<g font-size="11" fill="#334155">
+<text x="20" y="69">Human Resources</text><rect x="135" y="58" width="100" height="12" rx="6" fill="#93c5fd"/><text x="245" y="69">50.0%</text>
+<text x="20" y="94">Finance</text><rect x="135" y="83" width="133" height="12" rx="6" fill="#60a5fa"/><text x="278" y="94">66.7%</text>
+<text x="20" y="119">Customer Service</text><rect x="135" y="108" width="133" height="12" rx="6" fill="#60a5fa"/><text x="278" y="119">66.7%</text>
+<text x="20" y="144">Information Technology</text><rect x="135" y="133" width="133" height="12" rx="6" fill="#60a5fa"/><text x="278" y="144">66.7%</text>
+<text x="20" y="169">Quality Assurance</text><rect x="135" y="158" width="156" height="12" rx="6" fill="#3b82f6"/><text x="301" y="169">77.8%</text>
+<text x="20" y="194">Engineering</text><rect x="135" y="183" width="160" height="12" rx="6" fill="#3b82f6"/><text x="305" y="194">80.0%</text>
+<text x="20" y="219">Supply Chain</text><rect x="135" y="208" width="173" height="12" rx="6" fill="#2563eb"/><text x="318" y="219">86.7%</text>
+</g></g>
+
+<g transform="translate(442,112)"><rect width="706" height="506" rx="10" fill="white" stroke="#dbe3ee"/><text x="20" y="34" font-size="16" font-weight="700" fill="#172033">AI Systems with Governance Control Gaps</text>
+<rect x="20" y="52" width="666" height="34" rx="5" fill="#eef2f7"/>
+<g font-size="11" font-weight="700" fill="#475569"><text x="30" y="74">System</text><text x="205" y="74">Department</text><text x="330" y="74">Risk</text><text x="385" y="74">Category</text><text x="500" y="74">Control status</text></g>
+<g font-size="11" fill="#334155">
+<text x="30" y="112">Customer Credit Risk Model</text><text x="205" y="112">Finance</text><text x="330" y="112">Critical</text><text x="385" y="112">Transparency</text><text x="500" y="112">Missing / Not Effective</text>
+<line x1="20" y1="124" x2="686" y2="124" stroke="#e2e8f0"/>
+<text x="30" y="151">Employee Attrition Predictor</text><text x="205" y="151">Human Resources</text><text x="330" y="151">Critical</text><text x="385" y="151">Fairness</text><text x="500" y="151">Partial / Partially Effective</text>
+<line x1="20" y1="163" x2="686" y2="163" stroke="#e2e8f0"/>
+<text x="30" y="190">Resume Screening Assistant</text><text x="205" y="190">Human Resources</text><text x="330" y="190">Critical</text><text x="385" y="190">Transparency</text><text x="500" y="190">Missing / Not Effective</text>
+<line x1="20" y1="202" x2="686" y2="202" stroke="#e2e8f0"/>
+<text x="30" y="229">Internal Knowledge Assistant</text><text x="205" y="229">Information Technology</text><text x="330" y="229">Critical</text><text x="385" y="229">Monitoring</text><text x="500" y="229">Missing / Not Effective</text>
+<line x1="20" y1="241" x2="686" y2="241" stroke="#e2e8f0"/>
+<text x="30" y="268">Access Risk Analyzer</text><text x="205" y="268">Information Technology</text><text x="330" y="268">Critical</text><text x="385" y="268">Monitoring</text><text x="500" y="268">Partial / Partially Effective</text>
+<line x1="20" y1="280" x2="686" y2="280" stroke="#e2e8f0"/>
+<text x="30" y="307">Product Recommendation Engine</text><text x="205" y="307">Sales &amp; Marketing</text><text x="330" y="307">High</text><text x="385" y="307">Fairness</text><text x="500" y="307">Missing / Not Effective</text>
+<line x1="20" y1="319" x2="686" y2="319" stroke="#e2e8f0"/>
+<text x="30" y="346">Engineering Design Assistant</text><text x="205" y="346">Engineering</text><text x="330" y="346">High</text><text x="385" y="346">Monitoring</text><text x="500" y="346">Partial / Partially Effective</text>
+<line x1="20" y1="358" x2="686" y2="358" stroke="#e2e8f0"/>
+<text x="30" y="385">Workplace Safety Vision System</text><text x="205" y="385">Operations</text><text x="330" y="385">High</text><text x="385" y="385">Privacy</text><text x="500" y="385">Partial / Partially Effective</text>
+</g>
+<text x="20" y="460" font-size="12" fill="#64748b">Detailed Power BI table includes system, department, risk level, category, control name, status, and effectiveness.</text>
+</g>
+</g></svg>
