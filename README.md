@@ -10,9 +10,9 @@ A portfolio project simulating an enterprise AI governance program for **NorthSt
 
 ## Executive dashboard
 
-![Executive Overview](powerbi/screenshots/page1_executive_overview.png)
+![Executive Overview](powerbi/screenshots/page1_executive_overview.svg)
 
-The refreshed Power BI dashboard tracks:
+The corrected Power BI analysis tracks:
 
 - **50** AI systems
 - **5 Critical** and **26 High-Risk** systems
@@ -81,23 +81,23 @@ The final governance-priority score is a **project-defined prioritization metric
 
 ## Power BI report
 
-The report contains four pages:
+The report contains four pages. Static vector previews make the report reviewable directly in GitHub, while [`powerbi/README.md`](powerbi/README.md) documents the data model and DAX measures.
 
 ### 1. Executive Overview
 High-level KPIs, risk distribution, departmental exposure, control status, and incident trends.
 
 ### 2. AI Risk Analysis
-![AI Risk Analysis](powerbi/screenshots/page2_risk_analysis.png)
+![AI Risk Analysis](powerbi/screenshots/page2_risk_analysis.svg)
 
 Compares inherent risk by department and AI type, summarizes average risk by category, and shows the risk-level distribution by department.
 
 ### 3. Governance & Controls
-![Governance and Controls](powerbi/screenshots/page3_governance_controls.png)
+![Governance and Controls](powerbi/screenshots/page3_governance_controls.svg)
 
 Highlights control coverage, weak controls by governance category, and system-level control gaps.
 
 ### 4. AI System Detail
-![AI System Detail](powerbi/screenshots/page4_system_detail.png)
+![AI System Detail](powerbi/screenshots/page4_system_detail.svg)
 
 Provides a single-system drill-down for risk score, risk level, weak controls, incidents, detailed controls, and incident history.
 
@@ -112,6 +112,8 @@ The analysis is extended into an implementation layer containing:
 - RACI matrix
 - Action owners, dependencies, and success metrics
 
+The implementation artifacts are available in [`project_management/`](project_management/).
+
 This turns the project from a dashboard into a full **identify → assess → prioritize → remediate → monitor** governance workflow.
 
 ## Tools and skills demonstrated
@@ -125,14 +127,17 @@ This turns the project from a dashboard into a full **identify → assess → pr
 ## Repository structure
 
 ```text
-data/                    Corrected CSV source tables
-database/                SQLite database
-sql/                     SQL analysis queries
-workbook/                Excel source + remediation artifacts
-powerbi/                 Refreshed PBIX report
-powerbi/screenshots/     Dashboard screenshots
-docs/                    Data audit and validation notes
+data/                     Corrected source tables
+sql/                      Eight SQL governance analyses
+powerbi/                  Data model + DAX documentation
+powerbi/screenshots/      Static report previews
+project_management/       Remediation plan, charter, timeline, risks, RACI
+docs/                     Data-audit and Power BI validation notes
 ```
+
+## Reproducibility
+
+The CSV files in `/data` are the corrected source of truth. Import the five tables into SQLite or Power BI, relate them by `Department_ID` and `AI_System_ID`, then use the SQL and DAX documented in this repository to reproduce the analysis.
 
 ## Data quality
 
