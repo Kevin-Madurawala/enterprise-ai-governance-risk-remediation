@@ -10,7 +10,7 @@ A portfolio project simulating an enterprise AI governance program for **NorthSt
 
 ## Executive dashboard
 
-![Executive Overview](powerbi/screenshots/page1_executive_overview.svg)
+![Executive Overview](powerbi/screenshots/page1_executive_overview.png)
 
 The corrected Power BI analysis tracks:
 
@@ -19,6 +19,15 @@ The corrected Power BI analysis tracks:
 - **74%** effective governance-control coverage
 - **8** open / investigating incidents
 - **20** high-severity incidents
+
+## Project files
+
+- [Power BI report (.pbix)](powerbi/AI_Governance_Project.pbix)
+- [Excel workbook (.xlsx)](workbook/Northstar_AI_Governance_Project.xlsx)
+- [SQL analysis](sql/Northstar_Queries.sql)
+- [Corrected source data](data/)
+- [Project-management artifacts](project_management/)
+- [Data audit and validation notes](docs/)
 
 ## Dataset
 
@@ -81,23 +90,23 @@ The final governance-priority score is a **project-defined prioritization metric
 
 ## Power BI report
 
-The report contains four pages. Static vector previews make the report reviewable directly in GitHub, while [`powerbi/README.md`](powerbi/README.md) documents the data model and DAX measures.
+The final Power BI report contains four pages and is included in [`powerbi/AI_Governance_Project.pbix`](powerbi/AI_Governance_Project.pbix). The screenshots below show the refreshed report using the corrected source data.
 
 ### 1. Executive Overview
 High-level KPIs, risk distribution, departmental exposure, control status, and incident trends.
 
 ### 2. AI Risk Analysis
-![AI Risk Analysis](powerbi/screenshots/page2_risk_analysis.svg)
+![AI Risk Analysis](powerbi/screenshots/page2_risk_analysis.png)
 
 Compares inherent risk by department and AI type, summarizes average risk by category, and shows the risk-level distribution by department.
 
 ### 3. Governance & Controls
-![Governance and Controls](powerbi/screenshots/page3_governance_controls.svg)
+![Governance and Controls](powerbi/screenshots/page3_governance_controls.png)
 
 Highlights control coverage, weak controls by governance category, and system-level control gaps.
 
 ### 4. AI System Detail
-![AI System Detail](powerbi/screenshots/page4_system_detail.svg)
+![AI System Detail](powerbi/screenshots/page4_system_detail.png)
 
 Provides a single-system drill-down for risk score, risk level, weak controls, incidents, detailed controls, and incident history.
 
@@ -127,17 +136,18 @@ This turns the project from a dashboard into a full **identify → assess → pr
 ## Repository structure
 
 ```text
-data/                     Corrected source tables
+data/                     Corrected CSV source tables
 sql/                      Eight SQL governance analyses
-powerbi/                  Data model + DAX documentation
-powerbi/screenshots/      Static report previews
+workbook/                 Corrected Excel workbook
+powerbi/                  Final PBIX report + DAX/model documentation
+powerbi/screenshots/      Final Power BI report screenshots
 project_management/       Remediation plan, charter, timeline, risks, RACI
 docs/                     Data-audit and Power BI validation notes
 ```
 
 ## Reproducibility
 
-The CSV files in `/data` are the corrected source of truth. Import the five tables into SQLite or Power BI, relate them by `Department_ID` and `AI_System_ID`, then use the SQL and DAX documented in this repository to reproduce the analysis.
+The CSV files in `/data` are the corrected source of truth. They can be imported into SQLite or Power BI and related by `Department_ID` and `AI_System_ID`. The SQL file, Excel workbook, and Power BI report are included so the full analysis can be reviewed or reproduced without a separate database file.
 
 ## Data quality
 
