@@ -1,0 +1,41 @@
+Incident_ID,AI_System_ID,Incident_Date,Incident_Type,Severity,Description,Business_Impact,Root_Cause_Category,Status,Resolution_Date
+INC001,AI001,2026-02-18,Fairness Complaint,High,Qualified applicants from one candidate group were ranked lower than expected,Potential unequal access to employment opportunities,Training Data Bias,Investigating,
+INC002,AI001,2026-05-07,Incorrect Prediction,Medium,Several qualified applicants received unusually low screening scores,Recruiters required manual re-review of applications,Model Drift,Resolved,2026-05-15
+INC003,AI002,2026-03-12,Fairness Complaint,Medium,Weekend shifts were repeatedly concentrated among a subset of employees,Employee complaints and schedule rework,Optimization Configuration,Resolved,2026-03-25
+INC004,AI003,2026-01-28,Incorrect Prediction,High,System failed to identify an impending equipment bearing failure,Unplanned production downtime,Sensor Data Quality,Resolved,2026-02-04
+INC005,AI003,2026-06-09,Model Drift,Medium,Prediction accuracy declined after installation of new equipment sensors,Increase in unnecessary maintenance alerts,Model Drift,Resolved,2026-06-21
+INC006,AI005,2026-04-17,Incorrect Prediction,Medium,Good products were incorrectly classified as defective,Increased scrap review and production delays,Threshold Calibration,Resolved,2026-04-23
+INC007,AI005,2026-07-11,Incorrect Prediction,High,Defective products were missed during a production shift,Additional quality inspection and shipment hold,Image Quality,Resolved,2026-07-13
+INC008,AI007,2026-02-22,Incorrect Prediction,Medium,Low-risk supplier was incorrectly classified as high risk,Supplier review effort increased unnecessarily,Data Quality,Resolved,2026-03-01
+INC009,AI008,2026-03-08,Incorrect Prediction,Medium,Legitimate invoices were repeatedly flagged as suspicious,Payment delays and additional review workload,Threshold Calibration,Resolved,2026-03-18
+INC010,AI009,2026-01-14,Hallucination,Medium,Chatbot provided an incorrect warranty policy to a customer,Customer complaint and manual service recovery,Prompt Output Failure,Resolved,2026-01-15
+INC011,AI009,2026-04-26,Privacy Exposure,High,Chatbot response included information from another customer case,Potential customer privacy breach,Access Control,Remediated,2026-04-27
+INC012,AI009,2026-08-06,Hallucination,Medium,Chatbot invented a product feature that did not exist,Incorrect customer guidance,Prompt Output Failure,Resolved,2026-08-07
+INC013,AI010,2026-02-10,Unauthorized Information Exposure,High,Internal assistant displayed confidential project information to an unauthorized employee,Confidentiality risk and internal investigation,Access Control,Remediated,2026-02-12
+INC014,AI010,2026-07-19,Hallucination,Medium,Assistant generated an incorrect internal policy summary,Employees received misleading procedural guidance,Prompt Output Failure,Resolved,2026-07-20
+INC015,AI012,2026-05-02,Model Drift,Medium,Customer churn prediction accuracy declined after pricing changes,Retention team targeted incorrect customer segments,Model Drift,Resolved,2026-05-21
+INC016,AI013,2026-03-29,False Positive,Medium,Normal administrator activity triggered multiple high-risk security alerts,Cybersecurity analyst workload increased,Threshold Calibration,Resolved,2026-04-05
+INC017,AI014,2026-06-14,Hallucination,Low,Help desk assistant recommended an outdated software troubleshooting procedure,Minor employee productivity loss,Knowledge Base Quality,Resolved,2026-06-15
+INC018,AI015,2026-04-09,Incorrect Prediction,High,Legitimate administrator access was rated as highly suspicious,Temporary delay in privileged access approval,Model Configuration,Resolved,2026-04-18
+INC019,AI018,2026-03-20,Hallucination,Medium,Root cause tool suggested an unsupported equipment failure mechanism,Engineering team spent time investigating an unlikely cause,Prompt Output Failure,Resolved,2026-03-22
+INC020,AI020,2026-02-07,Fairness Concern,Medium,Segmentation model relied heavily on a geographic variable correlated with income,Potential inappropriate customer targeting,Proxy Variable Risk,Investigating,
+INC021,AI021,2026-06-18,Fairness Concern,Medium,Recommendation exposure differed substantially across customer groups,Potential unequal product visibility,Recommendation Bias,Open,
+INC022,AI022,2026-05-04,Pricing Error,High,Optimization model recommended an unusually large price increase for a product category,Potential revenue and customer trust impact,Data Quality,Resolved,2026-05-05
+INC023,AI023,2026-03-31,Unsafe Recommendation,High,Design assistant proposed a material unsuitable for operating temperature requirements,Potential engineering safety risk,Prompt Output Failure,Resolved,2026-04-01
+INC024,AI024,2026-07-02,Incorrect Prediction,Medium,Simulation underestimated equipment energy consumption under peak conditions,Engineering analysis had to be repeated,Model Assumption Error,Resolved,2026-07-09
+INC025,AI025,2026-01-25,False Negative,High,Drawing review system failed to flag a dimensional inconsistency,Engineering review delay and design rework,Training Data Gap,Resolved,2026-01-28
+INC026,AI027,2026-06-06,False Negative,High,Safety model failed to flag operating conditions later associated with a minor incident,Safety investigation and model review,Model Drift,Investigating,
+INC027,AI030,2026-08-02,Hallucination,High,Contract assistant incorrectly summarized a supplier termination clause,Procurement decision was temporarily delayed,Prompt Output Failure,Resolved,2026-08-03
+INC028,AI033,2026-02-16,Fairness Complaint,High,Similar credit profiles received different risk classifications,Potential unfair customer credit treatment,Model Bias,Investigating,
+INC029,AI033,2026-07-07,Incorrect Prediction,High,Low-risk customer was classified as high credit risk,Credit approval delayed pending manual review,Data Quality,Resolved,2026-07-11
+INC030,AI034,2026-05-18,Privacy Exposure,High,Generated call summary retained sensitive customer information unnecessarily,Privacy review and data removal required,Data Minimization Failure,Remediated,2026-05-19
+INC031,AI036,2026-04-11,Security Vulnerability,High,AI-generated code introduced an insecure input validation pattern,Development release delayed for remediation,Unsafe Code Generation,Resolved,2026-04-13
+INC032,AI037,2026-01-19,False Negative,High,Phishing message was not identified by the detection model,Employee mailbox exposure and security investigation,Model Evasion,Resolved,2026-01-20
+INC033,AI038,2026-06-25,Incorrect Classification,Medium,Confidential engineering file was classified as normal internal data,Incorrect information protection level applied,Training Data Gap,Resolved,2026-06-26
+INC034,AI040,2026-04-06,Incorrect Prediction,Medium,Supplier quality model overstated risk for a recently improved supplier,Unnecessary supplier corrective action review,Outdated Data,Resolved,2026-04-15
+INC035,AI042,2026-03-15,Fairness Concern,Medium,Lead scoring appeared to systematically favor customers from certain regions,Sales allocation required review,Proxy Variable Risk,Open,
+INC036,AI045,2026-07-26,Hallucination,High,Requirements assistant omitted an important compliance requirement from its summary,Engineering review had to be repeated,Prompt Output Failure,Resolved,2026-07-27
+INC037,AI046,2026-02-27,Fairness Concern,High,Attrition model produced substantially different risk distributions between employee groups,Potential inappropriate employee intervention decisions,Model Bias,Investigating,
+INC038,AI048,2026-05-23,System Failure,High,Warehouse routing system temporarily stopped responding during peak operations,Warehouse delays and manual routing required,Integration Error,Resolved,2026-05-23
+INC039,AI049,2026-08-08,False Positive,Medium,Safety vision system repeatedly flagged compliant workers as missing protective equipment,Alert fatigue during pilot testing,Image Quality,Open,
+INC040,AI050,2026-06-30,Hallucination,High,Financial close assistant suggested an incorrect reconciliation adjustment,Accountant detected issue before posting,Prompt Output Failure,Resolved,2026-06-30
