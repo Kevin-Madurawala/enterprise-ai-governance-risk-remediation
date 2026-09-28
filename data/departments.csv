@@ -1,0 +1,10 @@
+Department_ID,Department_Name,Department_Head,Employee_Count
+D001,Human Resources,VP Human Resources,95
+D002,Operations,VP Operations,620
+D003,Supply Chain,Director Supply Chain,180
+D004,Finance,CFO,130
+D005,Customer Service,Director Customer Experience,260
+D006,Information Technology,CIO,170
+D007,Quality Assurance,Director Quality,145
+D008,Sales & Marketing,CMO,250
+D009,Engineering,VP Engineering,150
