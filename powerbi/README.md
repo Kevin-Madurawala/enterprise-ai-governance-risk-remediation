@@ -2,6 +2,11 @@
 
 The final report was built in Power BI Desktop from the corrected CSV source tables in `/data`.
 
+## Download
+
+- [AI_Governance_Project.pbix](AI_Governance_Project.pbix)
+- [Final report screenshots](screenshots/)
+
 ## Data model
 
 - `departments[Department_ID]` **1 → many** `ai_systems[Department_ID]`
@@ -88,4 +93,4 @@ CALCULATE(
 | Open / Investigating Incidents | 8 |
 | High-Severity Incidents | 20 |
 
-Static vector previews are stored in `/powerbi/screenshots` so the report can be reviewed directly in GitHub.
+Final PNG screenshots are stored in `/powerbi/screenshots` so the report can be reviewed directly in GitHub without opening Power BI Desktop.
