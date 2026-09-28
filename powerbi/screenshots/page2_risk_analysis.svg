@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<rect width="1200" height="675" fill="#f6f8fb"/>
+<g font-family="Arial">
+<text x="52" y="54" font-size="28" font-weight="700" fill="#172033">AI Risk Analysis</text>
+<text x="52" y="80" font-size="14" fill="#64748b">Static portfolio preview • averages calculated from corrected source data</text>
+
+<g transform="translate(52,112)"><rect width="350" height="480" rx="10" fill="white" stroke="#dbe3ee"/><text x="20" y="34" font-size="16" font-weight="700" fill="#172033">Average Inherent Risk by Department</text>
+<g font-size="12" fill="#334155">
+<text x="20" y="74">Human Resources</text><rect x="145" y="62" width="178" height="14" rx="7" fill="#2563eb"/><text x="326" y="74" text-anchor="end">3.96</text>
+<text x="20" y="112">Information Technology</text><rect x="145" y="100" width="175" height="14" rx="7" fill="#3b82f6"/><text x="326" y="112" text-anchor="end">3.88</text>
+<text x="20" y="150">Finance</text><rect x="145" y="138" width="173" height="14" rx="7" fill="#3b82f6"/><text x="326" y="150" text-anchor="end">3.85</text>
+<text x="20" y="188">Engineering</text><rect x="145" y="176" width="149" height="14" rx="7" fill="#60a5fa"/><text x="326" y="188" text-anchor="end">3.32</text>
+<text x="20" y="226">Customer Service</text><rect x="145" y="214" width="147" height="14" rx="7" fill="#60a5fa"/><text x="326" y="226" text-anchor="end">3.26</text>
+<text x="20" y="264">Operations</text><rect x="145" y="252" width="131" height="14" rx="7" fill="#93c5fd"/><text x="326" y="264" text-anchor="end">2.92</text>
+<text x="20" y="302">Sales &amp; Marketing</text><rect x="145" y="290" width="130" height="14" rx="7" fill="#93c5fd"/><text x="326" y="302" text-anchor="end">2.89</text>
+<text x="20" y="340">Quality Assurance</text><rect x="145" y="328" width="125" height="14" rx="7" fill="#bfdbfe"/><text x="326" y="340" text-anchor="end">2.77</text>
+<text x="20" y="378">Supply Chain</text><rect x="145" y="366" width="125" height="14" rx="7" fill="#bfdbfe"/><text x="326" y="378" text-anchor="end">2.77</text>
+</g></g>
+
+<g transform="translate(422,112)"><rect width="350" height="480" rx="10" fill="white" stroke="#dbe3ee"/><text x="20" y="34" font-size="16" font-weight="700" fill="#172033">Average Inherent Risk by AI Type</text>
+<g font-size="12" fill="#334155">
+<text x="20" y="74">Anomaly Detection</text><rect x="155" y="62" width="168" height="14" rx="7" fill="#2563eb"/><text x="326" y="74" text-anchor="end">3.73</text>
+<text x="20" y="112">Recommendation System</text><rect x="155" y="100" width="162" height="14" rx="7" fill="#3b82f6"/><text x="326" y="112" text-anchor="end">3.60</text>
+<text x="20" y="150">Generative AI</text><rect x="155" y="138" width="162" height="14" rx="7" fill="#3b82f6"/><text x="326" y="150" text-anchor="end">3.59</text>
+<text x="20" y="188">Machine Learning</text><rect x="155" y="176" width="160" height="14" rx="7" fill="#60a5fa"/><text x="326" y="188" text-anchor="end">3.56</text>
+<text x="20" y="226">Computer Vision</text><rect x="155" y="214" width="143" height="14" rx="7" fill="#60a5fa"/><text x="326" y="226" text-anchor="end">3.17</text>
+<text x="20" y="264">Predictive ML</text><rect x="155" y="252" width="135" height="14" rx="7" fill="#93c5fd"/><text x="326" y="264" text-anchor="end">3.00</text>
+<text x="20" y="302">Natural Language Processing</text><rect x="155" y="290" width="134" height="14" rx="7" fill="#93c5fd"/><text x="326" y="302" text-anchor="end">2.98</text>
+<text x="20" y="340">Optimization AI</text><rect x="155" y="328" width="122" height="14" rx="7" fill="#bfdbfe"/><text x="326" y="340" text-anchor="end">2.72</text>
+</g></g>
+
+<g transform="translate(792,112)"><rect width="356" height="300" rx="10" fill="white" stroke="#dbe3ee"/><text x="20" y="34" font-size="16" font-weight="700" fill="#172033">Average Risk by Category</text>
+<line x1="45" y1="244" x2="324" y2="244" stroke="#cbd5e1"/>
+<rect x="56" y="139" width="28" height="105" fill="#93c5fd"/><rect x="99" y="80" width="28" height="164" fill="#2563eb"/><rect x="142" y="80" width="28" height="164" fill="#3b82f6"/><rect x="185" y="53" width="28" height="191" fill="#f59e0b"/><rect x="228" y="59" width="28" height="185" fill="#8b5cf6"/><rect x="271" y="54" width="28" height="190" fill="#ec4899"/>
+<g font-size="11" fill="#475569"><text x="70" y="264" text-anchor="middle">Fair</text><text x="113" y="264" text-anchor="middle">Oversight</text><text x="156" y="264" text-anchor="middle">Privacy</text><text x="199" y="264" text-anchor="middle">Reliab.</text><text x="242" y="264" text-anchor="middle">Security</text><text x="285" y="264" text-anchor="middle">Transp.</text></g>
+<g font-size="11" font-weight="700" fill="#172033"><text x="70" y="131" text-anchor="middle">2.10</text><text x="113" y="72" text-anchor="middle">3.28</text><text x="156" y="72" text-anchor="middle">3.28</text><text x="199" y="45" text-anchor="middle">3.82</text><text x="242" y="51" text-anchor="middle">3.70</text><text x="285" y="46" text-anchor="middle">3.80</text></g>
+</g>
+
+<g transform="translate(792,432)"><rect width="356" height="160" rx="10" fill="white" stroke="#dbe3ee"/><text x="20" y="32" font-size="16" font-weight="700" fill="#172033">Risk Distribution</text><text x="20" y="68" font-size="13" fill="#475569">Critical</text><text x="120" y="68" font-size="20" font-weight="700" fill="#172033">5</text><text x="180" y="68" font-size="13" fill="#475569">High</text><text x="260" y="68" font-size="20" font-weight="700" fill="#172033">26</text><text x="20" y="112" font-size="13" fill="#475569">Moderate</text><text x="120" y="112" font-size="20" font-weight="700" fill="#172033">17</text><text x="180" y="112" font-size="13" fill="#475569">Low</text><text x="260" y="112" font-size="20" font-weight="700" fill="#172033">2</text></g>
+</g></svg>
