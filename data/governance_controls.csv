@@ -1,0 +1,151 @@
+Control_ID,AI_System_ID,Control_Category,Control_Name,Control_Status,Control_Effectiveness,Control_Owner,Implementation_Date,Last_Test_Date,Next_Review_Date
+C001,AI001,Human Oversight,Mandatory recruiter review of AI recommendations,Implemented,Effective,Talent Acquisition Manager,2024-03-15,2026-06-12,2026-12-12
+C002,AI001,Fairness,Quarterly bias and selection-rate testing,Partial,Partially Effective,People Analytics Manager,2025-01-10,2026-06-12,2026-09-30
+C003,AI001,Transparency,Documented explanation for candidate recommendations,Missing,Not Effective,Talent Acquisition Manager,,,2026-10-15
+C004,AI002,Human Oversight,Manager approval required before schedules are published,Implemented,Effective,HR Operations Manager,2024-09-01,2026-05-20,2026-11-20
+C005,AI002,Fairness,Schedule fairness review across employee groups,Partial,Partially Effective,HR Operations Manager,2025-02-14,2026-05-20,2026-11-20
+C006,AI002,Monitoring,Monthly review of scheduling overrides and complaints,Implemented,Effective,HR Operations Manager,2024-10-01,2026-08-01,2026-09-30
+C007,AI003,Reliability,Monthly predictive accuracy review,Implemented,Effective,Maintenance Manager,2023-06-10,2026-07-18,2026-10-18
+C008,AI003,Human Oversight,Maintenance technician validates failure alerts,Implemented,Effective,Maintenance Manager,2023-06-10,2026-07-18,2026-10-18
+C009,AI003,Monitoring,Model drift monitoring for equipment sensor data,Partial,Partially Effective,Reliability Engineer,2025-03-01,2026-07-18,2026-10-18
+C010,AI004,Human Oversight,Production planner approval of optimized schedules,Implemented,Effective,Production Planning Manager,2023-11-05,2026-04-22,2026-10-22
+C011,AI004,Reliability,Production schedule performance review,Implemented,Effective,Production Planning Manager,2024-01-15,2026-07-15,2026-10-15
+C012,AI004,Monitoring,Monitor schedule deviations and manual overrides,Implemented,Effective,Operations Analytics Manager,2024-02-01,2026-08-01,2026-11-01
+C013,AI005,Reliability,Routine defect-detection accuracy validation,Implemented,Effective,Quality Manager,2024-01-18,2026-08-05,2026-11-05
+C014,AI005,Human Oversight,Quality inspector reviews rejected products,Implemented,Effective,Quality Manager,2024-01-18,2026-08-05,2026-11-05
+C015,AI005,Monitoring,False-positive and false-negative tracking,Implemented,Effective,Quality Engineering Manager,2024-03-10,2026-08-05,2026-11-05
+C016,AI006,Reliability,Monthly forecast accuracy review,Implemented,Effective,Demand Planning Manager,2023-08-21,2026-05-11,2026-11-11
+C017,AI006,Human Oversight,Planner approval required for major forecast changes,Implemented,Effective,Demand Planning Manager,2023-08-21,2026-05-11,2026-11-11
+C018,AI006,Monitoring,Monitor forecast error by product category,Implemented,Effective,Supply Chain Analytics Manager,2024-01-08,2026-08-10,2026-11-10
+C019,AI007,Reliability,Quarterly supplier-risk model validation,Implemented,Effective,Supplier Risk Manager,2024-05-09,2026-07-01,2026-10-01
+C020,AI007,Human Oversight,Supplier manager validates high-risk alerts,Implemented,Effective,Supplier Risk Manager,2024-05-09,2026-07-01,2026-10-01
+C021,AI007,Transparency,Document key factors influencing supplier risk scores,Partial,Partially Effective,Supplier Risk Manager,2025-02-12,2026-07-01,2026-10-01
+C022,AI008,Security,Restricted access to fraud-detection data and results,Implemented,Effective,Finance Controls Manager,2023-10-30,2026-06-28,2026-12-28
+C023,AI008,Human Oversight,Finance investigator reviews flagged invoices,Implemented,Effective,Finance Controls Manager,2023-10-30,2026-06-28,2026-12-28
+C024,AI008,Monitoring,Monthly false-positive fraud alert analysis,Partial,Partially Effective,Internal Controls Manager,2024-06-01,2026-06-28,2026-09-28
+C025,AI009,Security,Prompt and input filtering for sensitive data,Implemented,Effective,Customer Experience Manager,2025-02-14,2026-08-15,2026-11-15
+C026,AI009,Human Oversight,Escalation to human agent for complex requests,Implemented,Effective,Customer Experience Manager,2025-02-14,2026-08-15,2026-11-15
+C027,AI009,Monitoring,Hallucination and incorrect-answer monitoring,Partial,Partially Effective,Customer Experience Manager,2025-05-01,2026-08-15,2026-10-15
+C028,AI010,Security,Role-based access to internal knowledge sources,Implemented,Effective,IT Applications Manager,2025-06-02,2026-08-21,2026-11-21
+C029,AI010,Privacy,Prevent restricted information from appearing in unauthorized responses,Partial,Partially Effective,Data Security Manager,2025-07-15,2026-08-21,2026-10-21
+C030,AI010,Monitoring,Regular review of generated answers for hallucinations,Missing,Not Effective,IT Applications Manager,,,2026-10-01
+C031,AI011,Monitoring,Monthly customer sentiment model performance review,Implemented,Effective,Customer Insights Manager,2024-07-12,2026-06-30,2026-09-30
+C032,AI011,Privacy,Removal of unnecessary personal identifiers from feedback data,Implemented,Effective,Data Privacy Manager,2024-08-01,2026-06-30,2026-12-30
+C033,AI011,Reliability,Manual review of low-confidence sentiment classifications,Partial,Partially Effective,Customer Insights Manager,2025-01-15,2026-06-30,2026-09-30
+C034,AI012,Monitoring,Quarterly churn model accuracy review,Implemented,Effective,Customer Experience Manager,2024-02-20,2026-05-16,2026-11-16
+C035,AI012,Human Oversight,Retention team reviews high-risk customer predictions,Implemented,Effective,Customer Experience Manager,2024-02-20,2026-05-16,2026-11-16
+C036,AI012,Fairness,Review churn predictions for unequal treatment across customer groups,Partial,Partially Effective,Customer Analytics Manager,2025-03-01,2026-05-16,2026-11-16
+C037,AI013,Security,Continuous monitoring of suspicious network activity,Implemented,Effective,Cybersecurity Manager,2023-09-15,2026-07-25,2026-10-25
+C038,AI013,Human Oversight,Security analyst validates high-severity alerts,Implemented,Effective,Cybersecurity Operations Manager,2023-09-15,2026-07-25,2026-10-25
+C039,AI013,Monitoring,Regular false-positive and false-negative review,Implemented,Effective,Cybersecurity Manager,2024-01-10,2026-07-25,2026-10-25
+C040,AI014,Security,Prevent sensitive company data from being exposed in generated responses,Partial,Partially Effective,IT Service Manager,2025-03-10,2026-08-08,2026-10-08
+C041,AI014,Human Oversight,Escalate unresolved requests to human IT staff,Implemented,Effective,IT Service Manager,2025-03-10,2026-08-08,2026-11-08
+C042,AI014,Monitoring,Review incorrect or misleading help desk responses,Partial,Partially Effective,IT Service Manager,2025-06-01,2026-08-08,2026-10-08
+C043,AI015,Security,Restricted administrator access to identity and access data,Implemented,Effective,Identity and Access Manager,2024-04-22,2026-06-19,2026-12-19
+C044,AI015,Human Oversight,Security analyst reviews all high-risk access findings,Implemented,Effective,Identity and Access Manager,2024-04-22,2026-06-19,2026-12-19
+C045,AI015,Monitoring,Quarterly validation of access risk scoring rules,Partial,Partially Effective,Cybersecurity Governance Manager,2025-01-20,2026-06-19,2026-09-19
+C046,AI016,Human Oversight,Quality team reviews claims flagged as unusual,Implemented,Effective,Quality Systems Manager,2024-06-17,2026-04-28,2026-10-28
+C047,AI016,Monitoring,Monitor claim detection false-positive rate,Implemented,Effective,Quality Systems Manager,2024-09-01,2026-07-01,2026-10-01
+C048,AI016,Transparency,Document primary factors used to flag warranty claims,Partial,Partially Effective,Quality Systems Manager,2025-02-10,2026-04-28,2026-10-28
+C049,AI017,Reliability,Quarterly quality prediction accuracy review,Implemented,Effective,Quality Engineering Manager,2023-12-05,2026-07-14,2026-10-14
+C050,AI017,Human Oversight,Quality engineer validates critical quality-risk predictions,Implemented,Effective,Quality Engineering Manager,2023-12-05,2026-07-14,2026-10-14
+C051,AI017,Monitoring,Production data drift monitoring,Implemented,Effective,Quality Analytics Manager,2024-05-01,2026-07-14,2026-10-14
+C052,AI018,Human Oversight,Engineer validates AI-generated root-cause recommendations,Implemented,Effective,Continuous Improvement Manager,2025-01-21,2026-08-02,2026-11-02
+C053,AI018,Transparency,Require supporting evidence for suggested root causes,Partial,Partially Effective,Continuous Improvement Manager,2025-03-01,2026-08-02,2026-10-02
+C054,AI018,Monitoring,Review incorrect root-cause recommendations,Partial,Partially Effective,Quality Engineering Manager,2025-04-15,2026-08-02,2026-10-02
+C055,AI019,Human Oversight,Marketing staff review all AI-generated content before publication,Implemented,Effective,Digital Marketing Manager,2025-04-03,2026-08-12,2026-11-12
+C056,AI019,Transparency,Require disclosure of AI-assisted content creation internally,Implemented,Effective,Digital Marketing Manager,2025-04-03,2026-08-12,2026-11-12
+C057,AI019,Monitoring,Quarterly review of inaccurate or inappropriate generated content,Implemented,Effective,Brand Manager,2025-05-15,2026-08-12,2026-11-12
+C058,AI020,Privacy,Limit customer data used for segmentation to approved fields,Implemented,Effective,Marketing Analytics Manager,2023-07-24,2026-05-29,2026-11-29
+C059,AI020,Fairness,Review customer segments for inappropriate demographic proxies,Partial,Partially Effective,Marketing Analytics Manager,2024-05-10,2026-05-29,2026-11-29
+C060,AI020,Human Oversight,Marketing analyst validates segments before campaign use,Implemented,Effective,Marketing Analytics Manager,2023-07-24,2026-05-29,2026-11-29
+C061,AI021,Privacy,Restrict customer-profile attributes used for recommendations,Implemented,Effective,E-Commerce Manager,2024-08-08,2026-07-07,2027-01-07
+C062,AI021,Fairness,Monitor recommendation exposure across customer groups,Missing,Not Effective,E-Commerce Manager,,,2026-10-30
+C063,AI021,Monitoring,Track recommendation click-through and complaint rates,Implemented,Effective,E-Commerce Manager,2024-09-01,2026-07-07,2026-10-07
+C064,AI022,Human Oversight,Pricing manager approval required for major price changes,Implemented,Effective,Pricing Manager,2024-11-18,2026-06-05,2026-12-05
+C065,AI022,Fairness,Review pricing recommendations for discriminatory or unfair outcomes,Partial,Partially Effective,Pricing Manager,2025-02-01,2026-06-05,2026-09-05
+C066,AI022,Monitoring,Track manual pricing overrides and customer complaints,Implemented,Effective,Pricing Manager,2024-12-01,2026-08-01,2026-11-01
+C067,AI023,Security,Restrict AI assistant access to approved engineering repositories,Implemented,Effective,Engineering Design Manager,2025-05-12,2026-08-18,2026-11-18
+C068,AI023,Human Oversight,Engineer approval required before AI-generated designs are used,Implemented,Effective,Engineering Design Manager,2025-05-12,2026-08-18,2026-11-18
+C069,AI023,Monitoring,Review AI-generated design errors and unsafe suggestions,Partial,Partially Effective,Engineering Quality Manager,2025-07-01,2026-08-18,2026-10-18
+C070,AI024,Reliability,Validate simulation predictions against physical test results,Implemented,Effective,Systems Engineering Manager,2023-05-26,2026-06-24,2026-12-24
+C071,AI024,Human Oversight,Engineer approval required for simulation-based design decisions,Implemented,Effective,Systems Engineering Manager,2023-05-26,2026-06-24,2026-12-24
+C072,AI024,Monitoring,Track model prediction errors under changing operating conditions,Implemented,Effective,Systems Engineering Manager,2024-01-15,2026-06-24,2026-09-24
+C073,AI025,Security,Restrict access to confidential engineering drawings,Implemented,Effective,Engineering Quality Manager,2024-03-04,2026-07-20,2027-01-20
+C074,AI025,Human Oversight,Engineer manually verifies all identified drawing issues,Implemented,Effective,Engineering Quality Manager,2024-03-04,2026-07-20,2027-01-20
+C075,AI025,Reliability,Quarterly review of missed and incorrectly flagged drawing defects,Partial,Partially Effective,Engineering Quality Manager,2024-10-01,2026-07-20,2026-10-20
+C076,AI026,Reliability,Monthly review of energy optimization performance,Implemented,Effective,Plant Operations Manager,2024-02-11,2026-06-16,2026-12-16
+C077,AI026,Human Oversight,Operations staff approve major equipment setting changes,Implemented,Effective,Plant Operations Manager,2024-02-11,2026-06-16,2026-12-16
+C078,AI026,Monitoring,Track energy savings and production-performance tradeoffs,Implemented,Effective,Operations Analytics Manager,2024-05-01,2026-08-01,2026-11-01
+C079,AI027,Reliability,Quarterly validation of workplace incident predictions,Implemented,Effective,EHS Manager,2024-10-07,2026-07-30,2026-10-30
+C080,AI027,Human Oversight,Safety professional reviews all high-risk alerts,Implemented,Effective,EHS Manager,2024-10-07,2026-07-30,2026-10-30
+C081,AI027,Monitoring,Track missed incidents and false-positive safety alerts,Partial,Partially Effective,EHS Manager,2025-02-01,2026-07-30,2026-10-30
+C082,AI028,Reliability,Monthly route optimization performance review,Implemented,Effective,Logistics Manager,2023-04-19,2026-05-08,2026-11-08
+C083,AI028,Human Oversight,Dispatcher approval required for major route changes,Implemented,Effective,Logistics Manager,2023-04-19,2026-05-08,2026-11-08
+C084,AI028,Monitoring,Track route deviations delivery delays and manual overrides,Implemented,Effective,Transportation Manager,2024-01-15,2026-08-05,2026-11-05
+C085,AI029,Reliability,Monthly replenishment forecast accuracy review,Implemented,Effective,Inventory Planning Manager,2023-09-11,2026-06-03,2026-12-03
+C086,AI029,Human Oversight,Planner approval required for unusual replenishment recommendations,Implemented,Effective,Inventory Planning Manager,2023-09-11,2026-06-03,2026-12-03
+C087,AI029,Monitoring,Monitor stockouts excess inventory and recommendation overrides,Implemented,Effective,Inventory Planning Manager,2024-02-01,2026-08-03,2026-11-03
+C088,AI030,Security,Restrict access to confidential supplier contracts,Implemented,Effective,Strategic Sourcing Manager,2025-07-14,2026-08-25,2026-11-25
+C089,AI030,Human Oversight,Procurement professional verifies AI-identified contract risks,Implemented,Effective,Strategic Sourcing Manager,2025-07-14,2026-08-25,2026-11-25
+C090,AI030,Transparency,Require source references for AI-generated contract findings,Partial,Partially Effective,Strategic Sourcing Manager,2025-10-01,2026-08-25,2026-10-25
+C091,AI031,Security,Restrict access to financial forecasting data,Implemented,Effective,Treasury Manager,2023-03-27,2026-05-14,2026-11-14
+C092,AI031,Human Oversight,Treasury analyst approves forecasts used for major decisions,Implemented,Effective,Treasury Manager,2023-03-27,2026-05-14,2026-11-14
+C093,AI031,Reliability,Monthly comparison of forecast versus actual cash flow,Implemented,Effective,Treasury Manager,2023-04-15,2026-08-15,2026-11-15
+C094,AI032,Security,Restrict access to employee expense and audit records,Implemented,Effective,Internal Controls Manager,2024-05-23,2026-07-09,2027-01-09
+C095,AI032,Human Oversight,Auditor reviews all high-risk expense alerts before action,Implemented,Effective,Internal Controls Manager,2024-05-23,2026-07-09,2027-01-09
+C096,AI032,Monitoring,Quarterly review of false-positive expense alerts,Partial,Partially Effective,Internal Controls Manager,2024-10-01,2026-07-09,2026-10-09
+C097,AI033,Fairness,Test credit-risk outcomes for unequal treatment across customer groups,Partial,Partially Effective,Credit Manager,2024-04-01,2026-06-21,2026-09-30
+C098,AI033,Human Oversight,Credit analyst approval required before adverse credit decisions,Implemented,Effective,Credit Manager,2023-11-13,2026-06-21,2026-12-21
+C099,AI033,Transparency,Provide documented reasons supporting adverse credit recommendations,Missing,Not Effective,Credit Manager,,,2026-10-15
+C100,AI034,Privacy,Automatically redact sensitive customer information from stored summaries,Partial,Partially Effective,Contact Centre Manager,2025-03-01,2026-08-17,2026-10-17
+C101,AI034,Human Oversight,Agent reviews generated call summaries before case closure,Implemented,Effective,Contact Centre Manager,2025-01-06,2026-08-17,2026-11-17
+C102,AI034,Monitoring,Sample generated summaries for omissions and inaccurate statements,Implemented,Effective,Customer Service Quality Manager,2025-02-15,2026-08-17,2026-11-17
+C103,AI035,Fairness,Monitor complaint routing outcomes across customer categories,Partial,Partially Effective,Customer Service Operations Manager,2025-01-10,2026-06-26,2026-09-26
+C104,AI035,Human Oversight,Agents can override complaint routing recommendations,Implemented,Effective,Customer Service Operations Manager,2024-06-03,2026-06-26,2026-12-26
+C105,AI035,Monitoring,Track misrouted complaints and escalation delays,Implemented,Effective,Customer Service Operations Manager,2024-08-01,2026-08-01,2026-11-01
+C106,AI036,Security,Prevent development assistant from accessing unapproved repositories,Implemented,Effective,Software Engineering Manager,2025-02-24,2026-08-06,2026-11-06
+C107,AI036,Human Oversight,Developer review required before AI-generated code is merged,Implemented,Effective,Software Engineering Manager,2025-02-24,2026-08-06,2026-11-06
+C108,AI036,Monitoring,Scan AI-generated code for vulnerabilities and insecure patterns,Partial,Partially Effective,Application Security Manager,2025-05-01,2026-08-06,2026-10-06
+C109,AI037,Security,Continuous monitoring and updating of phishing detection rules,Implemented,Effective,Cybersecurity Operations Manager,2023-02-16,2026-07-28,2026-10-28
+C110,AI037,Human Oversight,Security analyst reviews high-confidence phishing detections,Implemented,Effective,Cybersecurity Operations Manager,2023-02-16,2026-07-28,2026-10-28
+C111,AI037,Monitoring,Track missed phishing emails and false-positive detections,Implemented,Effective,Cybersecurity Manager,2023-05-01,2026-07-28,2026-10-28
+C112,AI038,Privacy,Restrict access to sensitive-data classification results,Implemented,Effective,Data Security Manager,2024-01-29,2026-06-13,2026-12-13
+C113,AI038,Reliability,Quarterly validation of sensitive-data classification accuracy,Implemented,Effective,Data Security Manager,2024-01-29,2026-06-13,2026-12-13
+C114,AI038,Human Oversight,Security staff manually review uncertain classifications,Partial,Partially Effective,Data Security Manager,2024-06-01,2026-06-13,2026-09-30
+C115,AI039,Reliability,Validate calibration predictions against equipment inspection results,Implemented,Effective,Quality Engineering Manager,2024-04-15,2026-07-22,2026-10-22
+C116,AI039,Human Oversight,Technician confirms calibration requirement before equipment adjustment,Implemented,Effective,Quality Engineering Manager,2024-04-15,2026-07-22,2026-10-22
+C117,AI039,Monitoring,Track missed calibration events and unnecessary calibration alerts,Implemented,Effective,Quality Systems Manager,2024-07-01,2026-07-22,2026-10-22
+C118,AI040,Reliability,Quarterly supplier-quality model performance validation,Implemented,Effective,Supplier Quality Manager,2023-10-02,2026-05-31,2026-11-30
+C119,AI040,Human Oversight,Supplier quality engineer reviews high-risk supplier predictions,Implemented,Effective,Supplier Quality Manager,2023-10-02,2026-05-31,2026-11-30
+C120,AI040,Transparency,Document major factors influencing supplier quality risk scores,Partial,Partially Effective,Supplier Quality Manager,2024-08-01,2026-05-31,2026-11-30
+C121,AI041,Reliability,Compare predicted campaign performance with actual results,Implemented,Effective,Marketing Analytics Manager,2024-03-19,2026-06-10,2026-12-10
+C122,AI041,Human Oversight,Marketing analyst reviews predictions before budget allocation,Implemented,Effective,Marketing Analytics Manager,2024-03-19,2026-06-10,2026-12-10
+C123,AI041,Monitoring,Track forecasting error across campaign types,Implemented,Effective,Marketing Analytics Manager,2024-06-01,2026-08-01,2026-11-01
+C124,AI042,Privacy,Limit customer information used by lead-scoring model,Implemented,Effective,Sales Operations Manager,2023-06-29,2026-05-24,2026-11-24
+C125,AI042,Fairness,Review lead scores for inappropriate demographic proxy effects,Partial,Partially Effective,Sales Operations Manager,2024-09-01,2026-05-24,2026-11-24
+C126,AI042,Human Oversight,Sales representatives can override lead priority recommendations,Implemented,Effective,Sales Operations Manager,2023-06-29,2026-05-24,2026-11-24
+C127,AI043,Privacy,Collect only publicly available social media information,Implemented,Effective,Brand Manager,2024-12-09,2026-08-03,2027-02-03
+C128,AI043,Human Oversight,Brand analyst reviews sentiment alerts before escalation,Implemented,Effective,Brand Manager,2024-12-09,2026-08-03,2027-02-03
+C129,AI043,Monitoring,Review incorrect sentiment and topic classifications,Implemented,Effective,Brand Manager,2025-02-01,2026-08-03,2026-11-03
+C130,AI044,Reliability,Validate digital-twin outputs against real production performance,Implemented,Effective,Systems Engineering Manager,2025-01-13,2026-07-16,2026-10-16
+C131,AI044,Human Oversight,Engineer approval required before optimization changes are implemented,Implemented,Effective,Systems Engineering Manager,2025-01-13,2026-07-16,2026-10-16
+C132,AI044,Monitoring,Track simulation error after production-process changes,Implemented,Effective,Systems Engineering Manager,2025-04-01,2026-07-16,2026-10-16
+C133,AI045,Security,Limit AI access to authorized engineering requirement documents,Implemented,Effective,Engineering Program Manager,2025-04-28,2026-08-20,2026-11-20
+C134,AI045,Human Oversight,Engineer verifies AI-generated requirement summaries,Implemented,Effective,Engineering Program Manager,2025-04-28,2026-08-20,2026-11-20
+C135,AI045,Monitoring,Review omitted or incorrectly interpreted technical requirements,Partial,Partially Effective,Engineering Program Manager,2025-07-15,2026-08-20,2026-10-20
+C136,AI046,Privacy,Restrict attrition model access to authorized HR personnel,Implemented,Effective,People Analytics Manager,2024-08-26,2026-06-29,2026-12-29
+C137,AI046,Fairness,Quarterly testing for unequal attrition-risk scores across employee groups,Partial,Partially Effective,People Analytics Manager,2025-01-15,2026-06-29,2026-09-29
+C138,AI046,Transparency,Provide documented explanation of factors influencing employee risk scores,Missing,Not Effective,People Analytics Manager,,,2026-10-10
+C139,AI047,Privacy,Limit employee profile attributes used for learning recommendations,Implemented,Effective,Learning and Development Manager,2025-03-17,2026-08-11,2027-02-11
+C140,AI047,Fairness,Monitor training recommendations for unequal access to development opportunities,Partial,Partially Effective,Learning and Development Manager,2025-06-01,2026-08-11,2026-11-11
+C141,AI047,Human Oversight,Employees and managers can override training recommendations,Implemented,Effective,Learning and Development Manager,2025-03-17,2026-08-11,2027-02-11
+C142,AI048,Reliability,Routine validation of robot routing performance and collision avoidance,Implemented,Effective,Warehouse Operations Manager,2024-07-08,2026-07-04,2026-10-04
+C143,AI048,Human Oversight,Warehouse operators can immediately stop automated equipment,Implemented,Effective,Warehouse Operations Manager,2024-07-08,2026-07-04,2026-10-04
+C144,AI048,Monitoring,Track routing failures near misses and manual interventions,Implemented,Effective,Warehouse Safety Manager,2024-08-15,2026-07-04,2026-10-04
+C145,AI049,Privacy,Limit retention and access to workplace camera footage,Partial,Partially Effective,EHS Manager,2026-01-19,2026-08-27,2026-10-27
+C146,AI049,Reliability,Validate safety detection accuracy across operating conditions,Implemented,Effective,EHS Manager,2026-01-19,2026-08-27,2026-10-27
+C147,AI049,Human Oversight,Safety professional verifies alerts before corrective action,Implemented,Effective,EHS Manager,2026-01-19,2026-08-27,2026-10-27
+C148,AI050,Security,Restrict assistant access to approved finance records,Implemented,Effective,Financial Reporting Manager,2026-02-09,2026-08-29,2026-11-29
+C149,AI050,Human Oversight,Accountant reviews all AI-generated reconciliation suggestions,Implemented,Effective,Financial Reporting Manager,2026-02-09,2026-08-29,2026-11-29
+C150,AI050,Monitoring,Review incorrect financial close recommendations and hallucinations,Partial,Partially Effective,Financial Reporting Manager,2026-04-01,2026-08-29,2026-10-29
