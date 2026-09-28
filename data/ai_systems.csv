@@ -1,0 +1,51 @@
+AI_System_ID,System_Name,Department_ID,AI_Type,Purpose,Vendor_Type,Deployment_Type,Data_Sensitivity,Decision_Impact,Human_Decision_Involved,System_Status,System_Owner,Deployment_Date,Last_Review_Date
+AI001,Resume Screening Assistant,D001,Machine Learning,Prioritize job applicants,Third-Party,Cloud,High,High,Yes,Active,Talent Acquisition Manager,2024-03-15,2026-06-12
+AI002,Employee Scheduling Optimizer,D001,Optimization AI,Recommend employee work schedules,Internal,Cloud,Moderate,Medium,Yes,Active,HR Operations Manager,2024-03-16,2026-06-13
+AI003,Predictive Maintenance System,D002,Predictive ML,Predict equipment failures,Third-Party,Hybrid,Moderate,High,Yes,Active,Maintenance Manager,2024-03-17,2026-06-14
+AI004,Production Scheduling Optimizer,D002,Optimization AI,Optimize production schedules,Internal,On-Premises,Moderate,High,Yes,Active,Production Planning Manager,2024-03-18,2026-06-15
+AI005,Visual Defect Detection,D007,Computer Vision,Identify defective products,Third-Party,On-Premises,Low,High,Yes,Active,Quality Manager,2024-03-19,2026-06-16
+AI006,Demand Forecasting Model,D003,Predictive ML,Forecast product demand,Internal,Cloud,Moderate,Medium,Yes,Active,Demand Planning Manager,2024-03-20,2026-06-17
+AI007,Supplier Risk Predictor,D003,Machine Learning,Predict supplier disruption risk,Third-Party,Cloud,Moderate,High,Yes,Active,Supplier Risk Manager,2024-03-21,2026-06-18
+AI008,Invoice Fraud Detection,D004,Anomaly Detection,Identify suspicious invoices,Third-Party,Cloud,High,High,Yes,Active,Finance Controls Manager,2024-03-22,2026-06-19
+AI009,Customer Support Chatbot,D005,Generative AI,Answer customer questions,Third-Party,Cloud,High,Medium,Partial,Active,Customer Experience Manager,2024-03-23,2026-06-20
+AI010,Internal Knowledge Assistant,D006,Generative AI,Answer employee questions,Third-Party,Cloud,Restricted,Medium,Partial,Active,IT Applications Manager,2024-03-24,2026-06-21
+AI011,Customer Sentiment Analyzer,D005,Natural Language Processing,Analyze customer feedback and sentiment,Third-Party,Cloud,Moderate,Medium,Yes,Active,Customer Insights Manager,2024-03-25,2026-06-22
+AI012,Customer Churn Predictor,D005,Predictive ML,Predict customers likely to stop purchasing,Internal,Cloud,Moderate,Medium,Yes,Active,Customer Experience Manager,2024-03-26,2026-06-23
+AI013,IT Security Anomaly Detector,D006,Anomaly Detection,Detect unusual network and account activity,Third-Party,Hybrid,Restricted,High,Yes,Active,Cybersecurity Manager,2024-03-27,2026-06-24
+AI014,Automated Help Desk Assistant,D006,Generative AI,Assist employees with routine IT support,Third-Party,Cloud,High,Medium,Partial,Active,IT Service Manager,2024-03-28,2026-06-25
+AI015,Access Risk Analyzer,D006,Machine Learning,Identify potentially excessive user access privileges,Internal,On-Premises,Restricted,High,Yes,Active,Identity and Access Manager,2024-03-29,2026-06-26
+AI016,Warranty Claim Analyzer,D007,Machine Learning,Identify unusual product warranty claims,Internal,Cloud,Moderate,Medium,Yes,Active,Quality Systems Manager,2024-03-30,2026-06-27
+AI017,Quality Trend Predictor,D007,Predictive ML,Predict future manufacturing quality issues,Internal,On-Premises,Moderate,High,Yes,Active,Quality Engineering Manager,2024-03-31,2026-06-28
+AI018,Root Cause Recommendation Tool,D007,Generative AI,Suggest possible causes of recurring quality defects,Internal,Hybrid,Moderate,High,Yes,Active,Continuous Improvement Manager,2024-04-01,2026-06-29
+AI019,Marketing Content Generator,D008,Generative AI,Generate first drafts of marketing content,Third-Party,Cloud,Moderate,Low,Yes,Active,Digital Marketing Manager,2024-04-02,2026-06-30
+AI020,Customer Segmentation Model,D008,Machine Learning,Group customers based on purchasing behaviour,Internal,Cloud,High,Medium,Yes,Active,Marketing Analytics Manager,2024-04-03,2026-07-01
+AI021,Product Recommendation Engine,D008,Recommendation System,Recommend products to customers,Third-Party,Cloud,High,Medium,Partial,Active,E-Commerce Manager,2024-04-04,2026-07-02
+AI022,Dynamic Pricing Assistant,D008,Optimization AI,Recommend product pricing adjustments,Internal,Cloud,Moderate,High,Yes,Active,Pricing Manager,2024-04-05,2026-07-03
+AI023,Engineering Design Assistant,D009,Generative AI,Assist engineers with design concepts and documentation,Third-Party,Cloud,Restricted,High,Yes,Active,Engineering Design Manager,2024-04-06,2026-07-04
+AI024,Equipment Performance Simulator,D009,Predictive ML,Predict equipment performance under operating conditions,Internal,On-Premises,Moderate,High,Yes,Active,Systems Engineering Manager,2024-04-07,2026-07-05
+AI025,Automated Drawing Review,D009,Computer Vision,Identify potential issues in technical drawings,Internal,On-Premises,Restricted,High,Yes,Active,Engineering Quality Manager,2024-04-08,2026-07-06
+AI026,Energy Consumption Optimizer,D002,Optimization AI,Recommend production settings to reduce energy use,Internal,On-Premises,Low,Medium,Yes,Active,Plant Operations Manager,2024-04-09,2026-07-07
+AI027,Safety Incident Predictor,D002,Predictive ML,Predict operating conditions associated with workplace incidents,Internal,Hybrid,High,High,Yes,Active,EHS Manager,2024-04-10,2026-07-08
+AI028,Transportation Route Optimizer,D003,Optimization AI,Optimize material transportation and delivery routes,Third-Party,Cloud,Moderate,Medium,Yes,Active,Logistics Manager,2024-04-11,2026-07-09
+AI029,Inventory Replenishment Model,D003,Predictive ML,Recommend inventory replenishment quantities and timing,Internal,Cloud,Moderate,Medium,Yes,Active,Inventory Planning Manager,2024-04-12,2026-07-10
+AI030,Supplier Contract Analyzer,D003,Generative AI,Review supplier contracts and highlight potential risks,Third-Party,Cloud,Restricted,High,Yes,Active,Strategic Sourcing Manager,2024-04-13,2026-07-11
+AI031,Cash Flow Forecasting Model,D004,Predictive ML,Forecast short-term organizational cash flow,Internal,Cloud,High,High,Yes,Active,Treasury Manager,2024-04-14,2026-07-12
+AI032,Expense Audit Assistant,D004,Anomaly Detection,Identify unusual employee expenses for review,Third-Party,Cloud,High,Medium,Yes,Active,Internal Controls Manager,2024-04-15,2026-07-13
+AI033,Customer Credit Risk Model,D004,Machine Learning,Assess customer payment and credit risk,Internal,On-Premises,High,High,Yes,Active,Credit Manager,2024-04-16,2026-07-14
+AI034,Call Summarization Assistant,D005,Generative AI,Summarize customer service conversations,Third-Party,Cloud,High,Medium,Yes,Active,Contact Centre Manager,2024-04-17,2026-07-15
+AI035,Complaint Routing Model,D005,Natural Language Processing,Categorize and route customer complaints,Internal,Cloud,Moderate,Medium,Partial,Active,Customer Service Operations Manager,2024-04-18,2026-07-16
+AI036,Software Development Assistant,D006,Generative AI,Assist developers with code generation and documentation,Third-Party,Cloud,Restricted,High,Yes,Active,Software Engineering Manager,2024-04-19,2026-07-17
+AI037,Phishing Detection System,D006,Machine Learning,Identify potentially malicious email messages,Third-Party,Cloud,Restricted,High,Partial,Active,Cybersecurity Operations Manager,2024-04-20,2026-07-18
+AI038,Sensitive Data Classifier,D006,Natural Language Processing,Detect and classify sensitive information in company files,Internal,Hybrid,Restricted,High,Yes,Active,Data Security Manager,2024-04-21,2026-07-19
+AI039,Calibration Drift Predictor,D007,Predictive ML,Predict when production measurement equipment requires calibration,Internal,On-Premises,Moderate,High,Yes,Active,Quality Engineering Manager,2024-04-22,2026-07-20
+AI040,Supplier Quality Risk Model,D007,Machine Learning,Predict suppliers at risk of recurring quality issues,Internal,Cloud,Moderate,High,Yes,Active,Supplier Quality Manager,2024-04-23,2026-07-21
+AI041,Campaign Performance Predictor,D008,Predictive ML,Forecast marketing campaign performance,Third-Party,Cloud,Moderate,Low,Yes,Active,Marketing Analytics Manager,2024-04-24,2026-07-22
+AI042,Sales Lead Scoring Model,D008,Machine Learning,Prioritize sales leads based on likelihood of conversion,Internal,Cloud,High,Medium,Yes,Active,Sales Operations Manager,2024-04-25,2026-07-23
+AI043,Social Media Monitoring Assistant,D008,Natural Language Processing,Analyze public social media discussions about company products,Third-Party,Cloud,Low,Low,Partial,Active,Brand Manager,2024-04-26,2026-07-24
+AI044,Digital Twin Optimization System,D009,Optimization AI,Simulate and optimize manufacturing system performance,Internal,On-Premises,Moderate,High,Yes,Active,Systems Engineering Manager,2024-04-27,2026-07-25
+AI045,Engineering Requirements Assistant,D009,Generative AI,Summarize and analyze technical requirements for engineering projects,Third-Party,Cloud,Restricted,High,Yes,Active,Engineering Program Manager,2024-04-28,2026-07-26
+AI046,Employee Attrition Predictor,D001,Predictive ML,Identify employees with elevated likelihood of leaving the organization,Internal,Cloud,High,High,Yes,Active,People Analytics Manager,2024-04-29,2026-07-27
+AI047,Employee Learning Recommender,D001,Recommendation System,Recommend training content based on employee roles and skills,Third-Party,Cloud,High,Medium,Partial,Active,Learning and Development Manager,2024-04-30,2026-07-28
+AI048,Warehouse Robotics Routing System,D002,Optimization AI,Optimize movement routes for automated warehouse equipment,Third-Party,On-Premises,Low,High,Partial,Active,Warehouse Operations Manager,2024-05-01,2026-07-29
+AI049,Workplace Safety Vision System,D002,Computer Vision,Detect unsafe conditions and missing protective equipment,Third-Party,On-Premises,High,High,Yes,Pilot,EHS Manager,2024-05-02,2026-07-30
+AI050,Financial Close Assistant,D004,Generative AI,Assist finance staff with account reconciliation and close documentation,Third-Party,Cloud,Restricted,High,Yes,Pilot,Financial Reporting Manager,2024-05-03,2026-07-31
