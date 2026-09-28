@@ -1,0 +1,10 @@
+Activity,AI Governance Analyst,System Owner,IT/Security,Legal/Privacy,Executive Sponsor
+Risk Assessment,R,C,C,C,I
+Remediation Planning,R,A,C,C,I
+Control Implementation,C,A/R,R,C,I
+Control Testing,R,C,C,C,I
+Incident Review,R,C,R,C,I
+Follow-Up Risk Assessment,R,C,C,C,I
+Risk Acceptance,C,R,C,C,A
+Executive Reporting,R,I,I,I,A
+Recurring Monitoring,C,A/R,R,I,I
