@@ -1,0 +1,7 @@
+Risk_ID,Project_Risk,Likelihood,Impact,Mitigation,Owner,Status
+PR001,AI vendor delays technical documentation,Medium,High,Request documentation early and escalate overdue items,AI Governance Analyst,Open
+PR002,Business teams resist additional governance controls,Medium,High,Involve system owners early and explain business impact of remediation,Project Lead,Open
+PR003,Limited governance resources delay remediation,High,Medium,Prioritize Critical systems and phase lower-priority work,Chief Risk Officer,Open
+PR004,AI models change during remediation work,Medium,High,Require formal change-control review before major model updates,System Owner,Open
+PR005,Incomplete incident documentation affects root-cause analysis,Medium,Medium,Introduce a standardized AI incident reporting template,AI Governance Analyst,Open
+PR006,Privacy or legal review delays control implementation,Medium,High,Schedule Legal and Privacy reviews as early dependencies,Project Lead,Open
