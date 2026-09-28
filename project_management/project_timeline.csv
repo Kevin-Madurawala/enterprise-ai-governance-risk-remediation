@@ -1,0 +1,12 @@
+Task_ID,Phase,Task,Owner,Start_Date,End_Date,Dependency,Status,Duration_Days
+T001,Assessment & Planning,Confirm top 5 priority AI systems,AI Governance Analyst,2026-10-01,2026-10-07,None,Planned,7
+T002,Assessment & Planning,Confirm remediation owners and responsibilities,AI Governance Analyst,2026-10-01,2026-10-10,T001,Planned,10
+T003,Assessment & Planning,Review open incidents and control deficiencies,AI Governance Analyst,2026-10-05,2026-10-15,T001,Planned,11
+T004,Control Remediation,Implement fairness testing for credit and employment AI systems,People Analytics and Credit Risk,2026-10-15,2026-11-30,T003,Planned,47
+T005,Control Remediation,Develop AI decision transparency documentation,System Owners,2026-10-15,2026-12-15,T003,Planned,62
+T006,Control Remediation,Validate access-risk scoring and reduce false positives,Identity and Access / Cybersecurity,2026-11-01,2027-01-15,T003,Planned,76
+T007,Control Remediation,Implement generative AI hallucination monitoring,IT Applications Manager,2026-10-15,2026-12-15,T003,Planned,62
+T008,Validation & Testing,Test remediated governance controls,AI Governance Analyst,2027-01-15,2027-02-15,"T004,T005,T006,T007",Planned,32
+T009,Validation & Testing,Perform follow-up AI risk assessments,AI Governance Analyst,2027-02-01,2027-02-28,T008,Planned,28
+T010,Closeout & Monitoring,Prepare executive governance report,AI Governance Analyst,2027-03-01,2027-03-15,T009,Planned,15
+T011,Closeout & Monitoring,Transition priority systems to recurring monitoring,System Owners,2027-03-15,2027-03-31,T010,Planned,17
